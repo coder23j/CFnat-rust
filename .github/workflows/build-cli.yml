@@ -2,9 +2,6 @@ name: Build CLI (No Frontend/API)
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - "cli-v*"
 
 jobs:
   build:
